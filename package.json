@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/node-xtraverse.git"
+    "url": "git://github.com/passportjs/node-xtraverse.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/node-xtraverse/issues"
+    "url": "http://github.com/passportjs/node-xtraverse/issues"
   },
   "author": {
     "name": "Jared Hanson",
@@ -29,11 +29,11 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "xmldom": "0.1.x"
+    "xmldom": "0.6.x"
   },
   "devDependencies": {
-    "mocha": "1.x.x",
-    "chai": "1.x.x"
+    "mocha": "10.x.x",
+    "chai": "4.x.x"
   },
   "engines": {
     "node": ">= 0.4.0"
