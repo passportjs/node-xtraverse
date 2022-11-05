@@ -3,6 +3,13 @@
 
 name: Node.js Publish to GH Package
 
+on:
+  push:
+    branches: [master]
+  pull_request:
+    types: [opened, opened, synchronize, reopened]
+    branches: [master]
+    
 jobs:
   build:
     runs-on: ubuntu-latest
