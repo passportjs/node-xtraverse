@@ -29,11 +29,11 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "xmldom": "0.6.x"
+    "@xmldom/xmldom": "^0.8.6"
   },
   "devDependencies": {
-    "mocha": "10.x.x",
-    "chai": "4.x.x"
+    "chai": "4.x.x",
+    "mocha": "10.x.x"
   },
   "engines": {
     "node": ">= 0.4.0"
@@ -45,7 +45,7 @@
     "browsers": [
       "chrome/latest"
     ],
-    "harness" : "mocha",
+    "harness": "mocha",
     "files": [
       "test/bootstrap/testling.js",
       "test/*.test.js"
