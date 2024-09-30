@@ -29,7 +29,7 @@
   ],
   "main": "./lib",
   "devDependencies": {
-    "chai": "4.x.x",
+    "chai": "5.x.x",
     "mocha": "10.x.x"
   },
   "engines": {
@@ -49,6 +49,6 @@
     ]
   },
   "dependencies": {
-    "@xmldom/xmldom": "^0.8.6"
+    "@xmldom/xmldom": "^0.9.3"
   }
 }
